@@ -10,7 +10,7 @@ export type IconNames = '#names#';
 
 interface Props extends GProps, ViewProps {
   name: IconNames;
-  size?: number;
+  size?: number | number[];
   color?: string | string[];
 }
 
