@@ -45,7 +45,7 @@ export const replaceImports = (content: string, imports: string[]) => {
 export const replaceHelper = (content: string) => {
   return content.replace(
     /#helper#/g,
-    'import { getIconColor } from \'./helper\';'
+    'import { getIconColor, getIconSize } from \'./helper\';'
   );
 };
 

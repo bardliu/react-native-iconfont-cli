@@ -124,7 +124,7 @@ export const generateComponent = (data: XmlData, config: Config) => {
 };
 
 const generateCase = (data: XmlData['svg']['symbol'][number], baseIdent: number) => {
-  let template = `\n${whitespace(baseIdent)}<Svg viewBox="${data.$.viewBox}" width={size} height={size} {...rest}>\n`;
+  let template = `\n${whitespace(baseIdent)}<Svg viewBox="${data.$.viewBox}" width={getIconSize(size, 0)} height={getIconSize(size, 1)} {...rest}>\n`;
 
   for (const domName of Object.keys(data)) {
     let realDomName = SVG_MAP[domName];

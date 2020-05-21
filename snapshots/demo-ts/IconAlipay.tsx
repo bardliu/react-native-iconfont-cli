@@ -4,7 +4,7 @@
 import React, { FunctionComponent } from 'react';
 import { ViewProps } from 'react-native';
 import { Svg, GProps, Path } from 'react-native-svg';
-import { getIconColor } from './helper';
+import { getIconColor, getIconSize } from './helper';
 
 interface Props extends GProps, ViewProps {
   size?: number;
@@ -13,7 +13,7 @@ interface Props extends GProps, ViewProps {
 
 const IconAlipay: FunctionComponent<Props> = ({ size, color, ...rest }) => {
   return (
-    <Svg viewBox="0 0 1024 1024" width={size} height={size} {...rest}>
+    <Svg viewBox="0 0 1024 1024" width={getIconSize(size, 0)} height={getIconSize(size, 1)} {...rest}>
       <Path
         d="M192 692.736c0-69.632 51.2-106.496 88.064-111.104 111.104-18.432 264.192 74.24 264.192 74.24-69.632 88.064-166.912 134.144-241.152 134.144-65.024-4.608-111.104-41.472-111.104-97.28z"
         fill={getIconColor(color, 0, '#5B8BD4')}

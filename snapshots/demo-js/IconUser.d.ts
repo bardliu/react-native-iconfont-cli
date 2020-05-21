@@ -6,7 +6,7 @@ import { ViewProps } from 'react-native';
 import { GProps } from 'react-native-svg';
 
 interface Props extends GProps, ViewProps {
-  size?: number;
+  size?: number | number[];
   color?: string | string[];
 }
 
