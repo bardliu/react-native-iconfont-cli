@@ -3,7 +3,7 @@
 
 import React, { FunctionComponent } from 'react';
 import { ViewProps } from 'react-native';
-import { GProps } from 'react-native-svg';
+import { GProps } from 'react-native-svg-animation-fix';
 import IconAlipay from './IconAlipay';
 import IconUser from './IconUser';
 import IconSetup from './IconSetup';

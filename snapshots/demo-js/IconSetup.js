@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 import React from 'react';
-import { Svg, Path } from 'react-native-svg';
+import { Svg, Path } from 'react-native-svg-animation-fix';
 import { getIconColor, getIconSize } from './helper';
 
 const IconSetup = ({ size, color, ...rest }) => {
