@@ -12,7 +12,7 @@ export const replaceSvgComponents = (content: string, components: Set<string>) =
   return content.replace(
     /#svgComponents#/g,
     used.length
-      ? `import { ${used.join(', ')} } from 'react-native-svg';`
+      ? `import { ${used.join(', ')} } from 'react-native-svg-animation-fix';`
       : ''
   );
 };
