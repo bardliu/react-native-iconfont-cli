@@ -7,7 +7,7 @@ import { Svg, GProps, Path } from 'react-native-svg-animation-fix';
 import { getIconColor, getIconSize } from './helper';
 
 interface Props extends GProps, ViewProps {
-  size?: number;
+  size?: number | number[];
   color?: string | string[];
 }
 

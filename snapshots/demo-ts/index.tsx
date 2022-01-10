@@ -12,7 +12,7 @@ export type IconNames = 'alipay' | 'user' | 'setup';
 
 interface Props extends GProps, ViewProps {
   name: IconNames;
-  size?: number;
+  size?: number | number[];
   color?: string | string[];
 }
 

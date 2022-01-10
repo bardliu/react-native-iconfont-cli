@@ -2,7 +2,7 @@
 
 import colors from 'colors';
 import { getConfig } from '../libs/getConfig';
-import { fetchXml } from 'iconfont-parser';
+import { fetchXml } from 'iconfont-parser-fix';
 import { generateComponent } from '../libs/generateComponent';
 
 const config = getConfig();
