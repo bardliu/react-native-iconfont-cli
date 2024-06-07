@@ -3,7 +3,7 @@
 
 import React, { FunctionComponent } from 'react';
 import { ViewProps } from 'react-native';
-import { Svg, GProps, Path } from 'react-native-svg-animation-fix';
+import { Svg, GProps, Path } from 'react-native-svg';
 import { getIconColor, getIconSize } from './helper';
 
 interface Props extends GProps, ViewProps {

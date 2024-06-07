@@ -1,6 +1,5 @@
 ## Fork from [react-native-iconfont-cli](https://github.com/iconfont-cli/react-native-iconfont-cli)
 1. 支持同时设置 icon 宽高
-2. 改 react-native-svg 为 react-native-svg-animation-fix 解决strokeDasharray不能设置`"useNativeDriver: true"`问题
 
 ## react-native-iconfont-cli
 用纯JS把iconfont.cn的图标转换成RN组件，不依赖字体，支持多色彩，支持热更新

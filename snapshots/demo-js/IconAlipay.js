@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 import React from 'react';
-import { Svg, Path } from 'react-native-svg-animation-fix';
+import { Svg, Path } from 'react-native-svg';
 import { getIconColor, getIconSize } from './helper';
 
 const IconAlipay = ({ size, color, ...rest }) => {
